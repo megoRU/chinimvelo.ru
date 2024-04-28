@@ -1,0 +1,40 @@
+.homePage {
+    margin: 50px;
+}
+
+.homePage h1 {
+    padding-left: 300px;
+    padding-top: 50px;
+    text-align: left;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    position: relative;
+    font: 40px / 56px 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+
+.homePage hr {
+    width: 200px;
+    position: absolute;
+    text-align: left;
+}
+
+.button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 0;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 30px;
+    padding: 15px 35px;
+
+    letter-spacing: 0;
+}
+
+
+
+.button:hover {
+    background-color: #f9f9f9;
+    color: #000000;
+    letter-spacing: 0;
+}

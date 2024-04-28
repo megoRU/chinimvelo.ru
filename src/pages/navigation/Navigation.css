@@ -1,0 +1,16 @@
+.centeredLinks {
+    display: flex;
+    justify-content: center;
+}
+
+.centeredLinks a {
+    margin: 15px;
+    padding-top: 10px;
+    padding-left: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.centeredLinks a:hover {
+    color: #cccccc;
+}
