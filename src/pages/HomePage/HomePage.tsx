@@ -13,7 +13,7 @@ function HomePage() {
                     <span style={{display: 'block'}}>ПО ДОСТУПНОЙ</span>
                     <span style={{display: 'block'}}>ЦЕНЕ</span>
                     {/*<hr></hr>*/}
-
+                    <br/>
                     <Link to="/price" className="button">ПРАЙС ЛИСТ</Link>
                 </h1>
 

@@ -1,0 +1,42 @@
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1024px;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.map {
+    max-width: 1024px;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#inst {
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-container {
+        display: block;
+    }
+    .contact-container {
+        flex-direction: column; /* Изменяем порядок элементов на колонку на мобильных устройствах */
+        text-align: center; /* Выравниваем текст по центру */
+        width: 100%; /* Занимает всю доступную ширину */
+    }
+
+    .contact-info {
+        width: 100%; /* Занимает всю доступную ширину */
+    }
+
+    .map {
+        width: 100%; /* Занимает всю доступную ширину */
+        max-width: 300px; /* Максимальная ширина карты на мобильных устройствах */
+        margin: 0; /* Центрируем карту по горизонтали */
+    }
+}

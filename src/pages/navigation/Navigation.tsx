@@ -1,22 +1,35 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logoImage  from '../../assets/logo2.png'; // Предположим, что у вас есть компонент Logo
-import './Navigation.css'
+import logoImage from '../../assets/logo2.png';
+
+import './Navigation.css';
 
 const Navigation = () => {
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+    const toggleMobileMenu = () => {
+        setIsMobileMenuOpen(!isMobileMenuOpen);
+    };
+
     return (
         <div className="navigationContainer">
             <div className="logoContainer">
                 <Link to="/">
-                    <div className="logoContainer">
-                        <img src={logoImage} alt="Logo"/>
-                    </div>
+                    <img src={logoImage} alt="Logo" />
                 </Link>
             </div>
             <div className="centeredLinks">
-                <Link to="/">Главная</Link>
-                <Link to="/about">О нас</Link>
-                <Link to="/price">Прайс лист</Link>
-                <Link to="/contact">Контакты</Link>
+                <div className={`mobileMenuIcon ${isMobileMenuOpen ? 'open' : ''}`} onClick={toggleMobileMenu}>
+                    <div className="bar1"></div>
+                    <div className="bar2"></div>
+                    <div className="bar3"></div>
+                </div>
+                <div className={`linksContainer ${isMobileMenuOpen ? 'open' : ''}`}>
+                    <Link to="/" onClick={toggleMobileMenu}>Главная</Link>
+                    <Link to="/about" onClick={toggleMobileMenu}>О нас</Link>
+                    <Link to="/price" onClick={toggleMobileMenu}>Прайс лист</Link>
+                    <Link to="/contact" onClick={toggleMobileMenu}>Контакты</Link>
+                </div>
             </div>
         </div>
     );

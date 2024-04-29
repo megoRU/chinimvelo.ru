@@ -28,3 +28,47 @@
 .centeredLinks a:hover {
     color: #cccccc; /* Изменение цвета при наведении */
 }
+
+.mobileMenuIcon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+.open .bar1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.open .bar2 {
+    opacity: 0;
+}
+
+.open .bar3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+@media (max-width: 768px) {
+    .mobileMenuIcon {
+        display: flex;
+    }
+    .linksContainer {
+        display: none;
+    }
+    .linksContainer.open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: #333;
+    }
+}
