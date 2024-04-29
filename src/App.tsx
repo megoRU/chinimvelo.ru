@@ -3,7 +3,7 @@ import HomePage from './pages/HomePage/HomePage.tsx';
 import About from './pages/About/About.tsx';
 import Contact from './pages/Contact';
 import Navigation from "./pages/navigation/Navigation";
-import Price from "./pages/Price";
+import Price from "./pages/price/Price.tsx";
 import Footer from "./pages/Footer/Footer.tsx";
 
 import './App.css'

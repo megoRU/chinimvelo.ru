@@ -1,0 +1,16 @@
+.price img {
+    margin-top: -10px;
+    background-color: white;
+    width: 55%;
+    height: 50%;
+}
+
+.buttonContainer {
+    /* Отступ сверху */
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+.button-price {
+    margin-right: 10px; /* Отступ между кнопками */
+}

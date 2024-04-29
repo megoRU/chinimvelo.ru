@@ -7,7 +7,7 @@ const Navigation = () => {
         <div className="centeredLinks">
             <Link to="/">Главная</Link>
             <Link to="/about">О нас</Link>
-            <Link to="/price">Прайс лист услуг</Link>
+            <Link to="/price">Прайс лист</Link>
             <Link to="/contact">Контакты</Link>
         </div>
     );

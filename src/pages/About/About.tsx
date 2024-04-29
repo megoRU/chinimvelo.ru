@@ -1,6 +1,5 @@
 import './About.css'
-import screen from '../../assets/1.jpg'; // Путь к изображению
-
+import screen from '../../assets/1.jpg';
 
 function About() {
     return (
