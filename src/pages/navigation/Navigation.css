@@ -1,16 +1,30 @@
+.navigationContainer {
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+}
+
+.logoContainer {
+    margin-right: 20px; /* Отступ справа от логотипа */
+}
+
+.logoContainer img {
+    margin-top: 20px;
+    width: 100%; /* Установка ширины логотипа */
+    height: auto; /* Автоматическое определение высоты для сохранения пропорций */
+}
+
 .centeredLinks {
     display: flex;
-    justify-content: center;
+    align-items: center; /* Центрирование ссылок по вертикали */
 }
 
 .centeredLinks a {
-    margin: 15px;
-    padding-top: 10px;
-    padding-left: 5px;
+    margin: 0 10px; /* Отступы между ссылками */
     color: white;
     font-size: 20px;
 }
 
 .centeredLinks a:hover {
-    color: #cccccc;
+    color: #cccccc; /* Изменение цвета при наведении */
 }

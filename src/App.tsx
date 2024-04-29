@@ -9,7 +9,6 @@ import Footer from "./pages/Footer/Footer.tsx";
 import './App.css'
 
 function App() {
-
     return (
         <>
             <Router>

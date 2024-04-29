@@ -5,7 +5,7 @@ function Footer() {
 
     return (
         <div className="footer">
-            {currentDate}
+            {currentDate} | Информация на сайте не является публичной офертой
         </div>
     );
 }
