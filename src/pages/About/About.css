@@ -13,8 +13,6 @@ p {
 
 .company-logo {
     padding-top: 20px;
-    padding-left: 20px;
-    margin-left: 20px;
     width: 30%; /* Ширина изображения */
     height: auto; /* Автоматическое определение высоты для сохранения пропорций */
 }

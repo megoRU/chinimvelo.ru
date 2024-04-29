@@ -28,7 +28,7 @@ function Contact() {
                     <div className='Karta'>
                         <iframe
                             src="https://yandex.ru/map-widget/v1/-/CCUBBSUutD"
-                            width={window.innerWidth > 600 ? 600 : 395}
+                            width={window.innerWidth > 600 ? 600 : 375}
                             height={window.innerWidth > 600 ? 600 : 300}
                             style={{position: "relative"}}>
                         </iframe>
