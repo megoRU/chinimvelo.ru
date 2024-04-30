@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import {useState} from 'react';
+import {Link} from 'react-router-dom';
 import logoImage from '../../assets/logo2.png';
 
 import './Navigation.css';
@@ -14,9 +14,9 @@ const Navigation = () => {
     return (
         <div className="navigationContainer">
             <div className="logoContainer">
-                <Link to="/">
-                    <img src={logoImage} alt="Logo" />
-                </Link>
+                <a href="/">
+                    <img src={logoImage} alt="Logo"/>
+                </a>
             </div>
             <div className="centeredLinks">
                 <div className={`mobileMenuIcon ${isMobileMenuOpen ? 'open' : ''}`} onClick={toggleMobileMenu}>
