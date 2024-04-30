@@ -5,6 +5,10 @@
     height: 50%;
 }
 
+#last {
+    margin-bottom: 30px;
+}
+
 .buttonContainer {
     /* Отступ сверху */
     margin: 10px;

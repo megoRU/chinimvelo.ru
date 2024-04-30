@@ -15,6 +15,11 @@
     margin: 0 auto;
 }
 
+iframe {
+    align-items: center;
+    margin: 0 auto;
+}
+
 #inst {
     padding-top: 5px;
     font-size: 15px;
@@ -35,8 +40,8 @@
     }
 
     .map {
+        margin-top: 10px;
+        margin-bottom: 65px;
         width: 100%; /* Занимает всю доступную ширину */
-        max-width: 300px; /* Максимальная ширина карты на мобильных устройствах */
-        margin: 0; /* Центрируем карту по горизонтали */
     }
 }

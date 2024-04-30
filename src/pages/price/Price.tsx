@@ -27,7 +27,7 @@ function Price() {
 
             <div className="price">
                 <img src={table} alt="шапка таблицы"/>
-                <img src={image} alt="таблица цен"/>
+                <img src={image} id="last" alt="таблица цен"/>
             </div>
         </>
     );

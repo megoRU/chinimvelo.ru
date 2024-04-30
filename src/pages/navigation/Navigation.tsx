@@ -25,7 +25,7 @@ const Navigation = () => {
                     <div className="bar3"></div>
                 </div>
                 <div className={`linksContainer ${isMobileMenuOpen ? 'open' : ''}`}>
-                    <Link to="/" onClick={toggleMobileMenu}>Главная</Link>
+                    <Link to="/main" onClick={toggleMobileMenu}>Главная</Link>
                     <Link to="/about" onClick={toggleMobileMenu}>О нас</Link>
                     <Link to="/price" onClick={toggleMobileMenu}>Прайс лист</Link>
                     <Link to="/contact" onClick={toggleMobileMenu}>Контакты</Link>

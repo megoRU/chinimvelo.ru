@@ -1,24 +1,15 @@
-import './HomePage.css'
-import { Link } from 'react-router-dom';
+import About from '../About/About';
+import Contact from '../contact/Contact';
+import Price from "../price/Price";
+import MainPage from "../main/MainPage";
 
 function HomePage() {
     return (
         <>
-            <div className="homePage">
-                <h1>
-                    <span style={{display: 'block'}}>КАЧЕСТВЕННЫЙ И</span>
-                    <span style={{display: 'block'}}>ЧЕСТНЫЙ</span>
-                    <span style={{display: 'block'}}>РЕМОНТ</span>
-                    <span style={{display: 'block'}}>ВЕЛОСИПЕДОВ</span>
-                    <span style={{display: 'block'}}>ПО ДОСТУПНОЙ</span>
-                    <span style={{display: 'block'}}>ЦЕНЕ</span>
-                    {/*<hr></hr>*/}
-                    <br/>
-                    <Link to="/price" className="button">ПРАЙС ЛИСТ</Link>
-                </h1>
-
-
-            </div>
+            <MainPage/>
+            <About/>
+            <Price/>
+            <Contact/>
         </>
     );
 }
