@@ -39,6 +39,10 @@ iframe {
         width: 100%; /* Занимает всю доступную ширину */
     }
 
+    strong {
+        font-size: 15px;
+    }
+
     .map {
         margin-top: 10px;
         margin-bottom: 65px;
