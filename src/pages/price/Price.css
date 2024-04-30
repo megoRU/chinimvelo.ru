@@ -18,6 +18,7 @@
 .button-price {
     margin-right: 10px; /* Отступ между кнопками */
     font-size: 18px;
+    color: white;
 }
 
 p {
