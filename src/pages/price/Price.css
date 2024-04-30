@@ -30,6 +30,7 @@ p {
         font-size: 14px; /* Уменьшим размер шрифта кнопок */
         margin: 5px;
         padding: 10px 15px; /* Уменьшим внутренние отступы кнопок */
+        color: white;
     }
 
     .price img {

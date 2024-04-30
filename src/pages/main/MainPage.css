@@ -1,4 +1,5 @@
 .homePage {
+    color: white;
     display: flex;
     align-items: center;
     width: 17%;
@@ -43,6 +44,7 @@
 @media only screen and (max-width: 768px) {
 
     .homePage {
+        color: white;
         width: 50%;
         padding-top: 50px;
     }
