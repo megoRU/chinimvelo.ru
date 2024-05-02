@@ -3,21 +3,21 @@
     justify-content: center; /* Центрирование по горизонтали */
     align-items: center; /* Центрирование по вертикали */
     padding-bottom: 20px;
+    position: relative; /* Необходимо для корректного позиционирования логотипа */
 }
 
 .logoContainer {
-    margin-right: 20px; /* Отступ справа от логотипа */
-}
-
-.centeredLinks {
-    margin-top: 10px;
+    position: absolute;
+    left: 22%;
+    top: 7%;
 }
 
 .logoContainer img {
- margin-top: 13px;
+    max-height: 59px; /* Ограничиваем максимальную высоту логотипа */
 }
 
 .centeredLinks {
+    margin-top: 16px;
     display: flex;
     align-items: center; /* Центрирование ссылок по вертикали */
 }
@@ -26,6 +26,7 @@
     margin: 0 10px; /* Отступы между ссылками */
     color: white;
     font-size: 20px;
+    transition: 0.3s; /* Плавный переход при наведении */
 }
 
 .centeredLinks a:hover {
@@ -73,5 +74,18 @@
         left: 0;
         right: 0;
         background-color: #333;
+    }
+
+    /* Добавляем стили для случая, когда логотип отсутствует */
+    .navigationContainer {
+        justify-content: flex-start; /* Выравниваем элементы по левому краю */
+    }
+
+    .centeredLinks {
+        margin-left: 50px; /* Добавляем отступ слева для текста ссылок */
+    }
+
+    .logoContainer {
+        position: static; /* Сбрасываем абсолютное позиционирование */
     }
 }
