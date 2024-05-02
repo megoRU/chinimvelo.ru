@@ -13,12 +13,12 @@ const Navigation = () => {
 
     return (
         <div className="navigationContainer">
-            <div className="logoContainer">
-                <a href="/">
-                    <img src={logoImage} alt="Logo"/>
-                </a>
-            </div>
             <div className="centeredLinks">
+                <div className="logoContainer">
+                    <a href="/">
+                        <img src={logoImage} alt="Logo"/>
+                    </a>
+                </div>
                 <div className={`mobileMenuIcon ${isMobileMenuOpen ? 'open' : ''}`} onClick={toggleMobileMenu}>
                     <div className="bar1"></div>
                     <div className="bar2"></div>

@@ -2,16 +2,19 @@
     display: flex;
     justify-content: center; /* Центрирование по горизонтали */
     align-items: center; /* Центрирование по вертикали */
+    padding-bottom: 20px;
 }
 
 .logoContainer {
     margin-right: 20px; /* Отступ справа от логотипа */
 }
 
+.centeredLinks {
+    margin-top: 10px;
+}
+
 .logoContainer img {
-    margin-top: 20px;
-    width: 100%; /* Установка ширины логотипа */
-    height: auto; /* Автоматическое определение высоты для сохранения пропорций */
+ margin-top: 13px;
 }
 
 .centeredLinks {

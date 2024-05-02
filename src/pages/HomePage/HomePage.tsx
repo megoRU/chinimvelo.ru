@@ -1,4 +1,4 @@
-import About from '../About/About';
+import About from '../about/About';
 import Contact from '../contact/Contact';
 import Price from "../price/Price";
 import MainPage from "../main/MainPage";
